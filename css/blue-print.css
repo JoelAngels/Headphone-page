@@ -1,0 +1,196 @@
+#blue-print{
+    background: rgb(42,44,117); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(42,44,117,1) 2%, rgba(103,109,239,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(42,44,117,1) 2%,rgba(103,109,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(42,44,117,1) 2%,rgba(103,109,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 170px 0;
+    color: white;
+}
+#blue-print .container:after { /*since we are gonna use float we got to put the :after*/
+    content: "";
+    display: table;
+    clear: both;
+}
+#blue-print .left-side{
+    width: 60%;
+    float: left;
+
+}
+#blue-print .left-side img{
+    width: 60%;
+}
+#blue-print .right-side{
+    width: 40%;
+    float: left;
+}
+#blue-print .right-side h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+#blue-print .right-side .info-box { 
+    padding: 0 0 80px;
+}
+#blue-print .right-side .info-box:after { 
+    content: "";
+    display: table;
+    clear: both; 
+}
+#blue-print .right-side .info-box .col-1 {
+    width: 40%;
+    float: left;
+}
+#blue-print .right-side .info-box .col-1 .icon-container{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #F29C6B;
+    
+}
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 11px;
+    position: relative;
+}
+#blue-print .right-side .info-box .col-1 .icon-container .fab,
+#blue-print .right-side .info-box .col-1 .icon-container .fas{
+    position: relative;
+    top: -84px;
+    font-size: 4rem;
+    left:54px;
+}
+#blue-print .right-side .info-box .col-2 {
+    width: 60%;
+    float: left;
+}
+#blue-print .right-side .info-box .col-2 h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#blue-print .right-side .info-box .col-2 p{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px;
+}
+#blue-print .right-side .info-box .col-2 p:nth-child(2){
+    text-transform: capitalize;
+    color: #C4C0F8;
+    font-weight: 700;
+    padding: 8px;
+    line-height: 30px;
+}
+#blue-print .right-side .info-box .col-2 a{
+    color:#F29C6B;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    left: 4px;
+}
+#blue-print .right-side .info-box .col-2 span a{
+    color: rgba(226, 80, 242);
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    position: relative;
+    left: 4px;
+}
+
+/*LAPTOPS/DESKTOPS*/
+@media only screen and (max-width: 1215px) {
+   
+}
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+    #blue-print .left-side  {
+        width: 40%;
+    }
+    #blue-print .right-side  {
+        width: 60%;
+    }
+    #blue-print {
+        padding: 100px 0;
+    }    
+    #blue-print .right-side h1 {
+        font-size: 3rem;    
+        text-align: left;
+    }
+    #blue-print .right-side .info-box .col-1 {
+        width: 40%;
+        float: left;
+    }
+    
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+    }   
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px dashed white;
+        margin: 0 auto;
+        top: 9px;
+        position: relative;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .fab, #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        position: relative;
+        top: -62px;
+        font-size: 3rem;
+        left: 40px;
+    }
+}
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print img{
+        display: none;
+    }
+    #blue-print .left-side  {
+        width: 100%;
+    }
+    #blue-print .right-side  {
+        width: 100%;
+    }
+    #blue-print .right-side h1 {
+        font-size: 3rem;    
+        text-align: center;
+    }
+    
+    #blue-print .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+    }   
+    #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px dashed white;
+        margin: 0 auto;
+        top: 9px;
+        position: relative;
+    }
+    #blue-print .right-side .info-box .col-1 .icon-container .fab, #blue-print .right-side .info-box .col-1 .icon-container .fas {
+        position: relative;
+        top: -62px;
+        font-size: 3rem;
+        left: 40px;
+    }
+}   

@@ -1,0 +1,76 @@
+#now{
+    background:#584eda;
+    padding: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#now .container{
+    justify-content: center;
+    padding: 10px;
+}
+#now h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    margin-bottom:20px;
+}
+#now h2 span{
+    font-size: 2rem;
+    color: #fea83b;
+    letter-spacing: 2px;
+}
+#now .menu{
+    margin-bottom:20px;
+}
+#now .menu li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#now .menu li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-size: .7rem; 
+}
+#now  p{
+    margin-bottom:20px;
+    font-weight: 100;
+    font-size: .8rem;
+    color: white;
+    
+}
+#now .social-media li {
+    display: inline-block;
+    padding:5px 5px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#now .social-media li a{
+    display: inline-block;
+    padding:10px 20px;
+    color: #aba5ec;
+    font-size: 1.5rem;
+    opacity: .5;
+}
+
+/*LAPTOPS/DESKTOPS*/
+@media only screen and (max-width: 1215px) {
+   
+}
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+  
+}
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+ 
+}
+
+
+
+

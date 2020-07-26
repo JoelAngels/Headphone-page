@@ -1,0 +1,211 @@
+#Top-Jumbo{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 20px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #d8e8fb 35%, #d7dbfa 47%, #e4cef9 71%, #e6c7de 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#d8e8fb 35%,#d7dbfa 47%,#e4cef9 71%,#e6c7de 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#d8e8fb 35%,#d7dbfa 47%,#e4cef9 71%,#e6c7de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#Top-Jumbo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#Top-Jumbo .left-side{
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+#Top-Jumbo .left-side .large-Number{
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .1;
+    color: #868AF5;
+    position: relative;
+    left: -23px;
+    z-index: 1;
+    top: 0;
+}
+#Top-Jumbo .left-side .info-container{
+    position: relative;
+    top: -100px;
+}
+#Top-Jumbo .left-side .info-container h1{
+    color: #6065F1;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#Top-Jumbo .left-side .info-container p{
+    color: grey;
+    line-height: 2;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-weight: 300;
+
+}
+#Top-Jumbo .right-side{
+    float: left;
+    display: inline-block;
+    width: 60%;
+    padding: 0 50px;
+}
+#Top-Jumbo .right-side img{
+    width: 80%;
+    position: relative;
+    top: 40px;
+}
+#Top-Jumbo .left-side .info-container .email-area{
+    background:white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+#Top-Jumbo .left-side .info-container .email-area .fas{
+    font-size: 1.5rem;
+    position: relative;
+    top: 2px;    
+    margin-left: 10px;
+    color: #d5e2ea;
+}
+#Top-Jumbo .left-side .info-container .email-area input[type="email"]{
+    background: white;
+    border: none  10px;
+    padding: 10px;
+    width: 190px;
+}
+#Top-Jumbo .left-side .info-container .email-area button{
+   border: 0px solid;
+   padding: 20px 50px;
+   background: #6066F2;
+   color: white;
+   border-radius: 50px;
+   font-size: 1rem;
+   text-transform: uppercase;
+}
+
+/*LAPTOPS/DESKTOPS*/
+@media only screen and (max-width: 1215px) {
+    #Top-Jumbo .right-side img {
+        width: 80%;
+        position: relative;
+        top: 110px;
+    }
+}
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+    #Top-Jumbo .left-side {
+        width: 50%;
+    }
+    #Top-Jumbo .left-side .large-Number {
+        font-size: 200px;
+    }
+    #Top-Jumbo .left-side .info-container h1 {
+        font-size: 2.5rem;
+    }
+    #Top-Jumbo .left-side .info-container p {
+        font-size: 1.2rem;
+    }
+    #Top-Jumbo .left-side .info-container .email-area {
+       width: 100%;
+       max-width: 400px;
+       padding: 5px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area .fas {
+        position: relative;
+        top: 2px;
+        margin-left: 0px;
+        float: left;
+        width: 15%;
+        position: relative;
+        top: 16px;
+        left: 20px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area input[type="email"] {
+        width: 42%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area button {
+        padding: 20px 0px;
+        background: #6066F2;
+        font-size: 1rem;
+        width: 43%;
+        float: left;
+        position: relative;
+    }
+    #Top-Jumbo .right-side  {
+        width: 50%;
+        position: relative;
+        top: -69px;
+    }
+    #Top-Jumbo .right-side img {
+        width: 100%;
+        position: relative;
+        top: 200px;
+    }
+}
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+    #Top-Jumbo .left-side {
+        width: 100%;
+    }
+    header .menu a {
+        width: 100%;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+    }
+    #Top-Jumbo .left-side .large-Number {
+        font-size: 200px;
+    }
+    #Top-Jumbo .left-side .info-container h1 {
+        font-size: 2.5rem;
+    }
+    #Top-Jumbo .left-side .info-container p {
+        font-size: 1.2rem;
+    }
+    #Top-Jumbo .left-side .info-container .email-area {
+       width: 100%;
+       padding: 5px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area .fas {
+        position: relative;
+        top: 2px;
+        margin-left: 0px;
+        float: left;
+        width: 15%;
+        position: relative;
+        top: 16px;
+        left: 20px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area input[type="email"] {
+        width: 42%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #Top-Jumbo .left-side .info-container .email-area button {
+        padding: 20px 0px;
+        background: #6066F2;
+        font-size: 1rem;
+        width: 43%;
+        float: left;
+        position: relative;
+    }
+    #Top-Jumbo .right-side  {
+        width: 100%;
+        position: relative;
+        top: -68px;
+    }
+    #Top-Jumbo .right-side img {
+        width: 100%;
+        position: relative;
+        top: 1px;
+    }
+    
+
+    
+    
+ 
+}
+
